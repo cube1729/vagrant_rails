@@ -49,6 +49,11 @@ Run root cleanup script
 
 Exit and log in as vagrant
 
+Run the rbenv script
+
+    cd setup
+    ./rbenv.sh
+    
 
 
 

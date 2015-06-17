@@ -5,11 +5,12 @@
 #rbenv install
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo -e "\n#rbenv"
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-source .bashrc
+source ~/.bashrc
 
 #ruby install
 rbenv install 2.2.2

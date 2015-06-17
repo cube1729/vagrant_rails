@@ -4,12 +4,6 @@
 alias ll='ls -lh'
 alias la='ls -lah'
 
-# 
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-eval "$(rbenv init -)"
-
-
 #git prompt
 source ~/.git_prompt.sh
 export PS1='\[\033[01;32m\]\h\[\033[01;34m\]:\w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\]'
