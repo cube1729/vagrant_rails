@@ -34,8 +34,7 @@ chmod 600 /home/vagrant/.ssh/autorized_keys
 chown -R vagrant:vagrant /home/vagrant/.ssh
 
 #move files to vagrant home
-mkdir ~/setup
-mkdir /home/vagrant/
+mkdir /home/vagrant/setup
 mv ~/setup/bashrc_add /home/vagrant/setup/bashrc_add
 mv ~/setup/rbenv.sh /home/vagrant/setup/rbenv.sh
 mv ~/setup/vagrant.sh /home/vagrant/setup/vagrant_clean.sh
