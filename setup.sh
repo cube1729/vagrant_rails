@@ -35,10 +35,10 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 
 #move files to vagrant home
 mkdir /home/vagrant/setup
-mv ~/setup/bashrc_add /home/vagrant/setup/bashrc_add
+mv ~/setup/bashrc_extra /home/vagrant/setup/bashrc_extra
 mv ~/setup/rbenv.sh /home/vagrant/setup/rbenv.sh
-mv ~/setup/vagrant.sh /home/vagrant/setup/vagrant_clean.sh
-chown -r vagrant:vagrant /home/vagrant/setup
+mv ~/setup/vagrant_clean.sh /home/vagrant/setup/vagrant_clean.sh
+chown -R vagrant:vagrant /home/vagrant/setup
 
 #restart
 shutdown -r now
