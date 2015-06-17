@@ -54,6 +54,7 @@ Run the rbenv script
     cd setup
     ./rbenv.sh
     
+Run the vagrant cleanup
 
 
 

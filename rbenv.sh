@@ -24,7 +24,7 @@ gem install rails --no-rdoc --no-ri
 rbenv rehash
 
 #git prompt
-curl https://raw.githubusercontent.com/git/git/8976500cbbb13270398d3b3e07a17b8cc7bff43f/contrib/completion/git-prompt.sh > .git_prompt.sh
-chmod 700 .git_prompt.sh
+curl https://raw.githubusercontent.com/git/git/8976500cbbb13270398d3b3e07a17b8cc7bff43f/contrib/completion/git-prompt.sh > ~/.git_prompt.sh
+chmod 700 ~/.git_prompt.sh
 
 cat ~/setup/bashrc_extra >> ~/.bashrc
