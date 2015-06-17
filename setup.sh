@@ -25,7 +25,7 @@ sed -i "s/^\(Defaults.*requiretty\)/#\1/" /etc/sudoers
 echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 #create vagrant insecure key
-mkdir /home/vagrant.ssh
+mkdir /home/vagrant/.ssh
 curl https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub >> /home/vagrant/.ssh/authorized_keys
 
 #set folder/file permissions
@@ -35,6 +35,7 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 
 #move files to vagrant home
 mkdir ~/setup
+mkdir /home/vagrant/
 mv ~/setup/bashrc_add /home/vagrant/setup/bashrc_add
 mv ~/setup/rbenv.sh /home/vagrant/setup/rbenv.sh
 mv ~/setup/vagrant.sh /home/vagrant/setup/vagrant_clean.sh
