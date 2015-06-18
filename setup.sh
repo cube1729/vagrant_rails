@@ -40,5 +40,8 @@ mv ~/setup/rbenv.sh /home/vagrant/setup/rbenv.sh
 mv ~/setup/vagrant_clean.sh /home/vagrant/setup/vagrant_clean.sh
 chown -R vagrant:vagrant /home/vagrant/setup
 
+#set hostname
+hostname vagrant
+
 #restart
 shutdown -r now

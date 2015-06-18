@@ -56,5 +56,8 @@ Run the rbenv script
     
 Run the vagrant cleanup
 
+    ./vagrant_clean.sh
+    
+
 
 
